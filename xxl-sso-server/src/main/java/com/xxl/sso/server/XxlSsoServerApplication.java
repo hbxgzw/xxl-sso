@@ -10,7 +10,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class XxlSsoServerApplication {
 
 	public static void main(String[] args) {
+		System.out.println("sso-server start..........");
         SpringApplication.run(XxlSsoServerApplication.class, args);
+        System.out.println("sso-server success..........");
 	}
 
 }
